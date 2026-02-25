@@ -19,4 +19,5 @@ This roadmap captures the set of OpenClaw playbook skills we will onboard next f
 
 1. Install each skill via `npx playbooks add skill ...` (or stage them in `skills/` if we bring the repo in-house).<br>
 2. Document the squad-level integration (event, trigger, artifact). Add checkboxes to `SKILLS-BACKLOG.md` for follow-through. <br>
-3. Add automation (GitHub Actions or cron) that runs new skills for learning sprints, release gating, and infra updates so the powermachine stays responsive.
+3. Add automation (GitHub Actions or cron) that runs new skills for learning sprints, release gating, and infra updates so the powermachine stays responsive.<br>
+4. Maintain `TRENDING-SKILLS.md` as a “living signal” list; update it whenever Playbooks highlights new trending skills so squads can keep learning the latest capabilities.

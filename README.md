@@ -2,13 +2,14 @@
 
 Powermachine HQ: orchestrating autonomous agent squads, infrastructure, learning, and ops for a multi-role organization powered by OpenClaw, Ollama, and Opencode.
 
-This repository captures the early org design, tooling, and automation for the "Powermachine" initiative: an autonomous operations hub powered by OpenClaw, Ollama, Opencode, and the GitHub ecosystem.
+This repository captures the early org design, tooling, automation, and learning resources for the "Powermachine" initiative: an autonomous operations hub powered by OpenClaw, Ollama, Opencode, and the GitHub ecosystem.
 
 ## What's inside
 
 - `ORG-CHART.md`: the org chart, reporting structure, and role/ritual guidance for your fleet of agents and engineers.
 - `auth-proxy/`: a small Node.js Azure AD proxy that protects the OpenClaw Control UI, set up to run behind ngrok.
 - `SKILL-ROADMAP.md`: the next wave of OpenClaw playbook skills we will onboard for each squad.
+- `TRENDING-SKILLS.md`: a curated summary of the trending skills on Playbooks.com and how each squad can adopt them.
 - `HEARTBEAT.md`, `SOUL.md`, and the OpenClaw onboarding files remain for continuity; they are part of how the assistant operates.
 
 ## Deployable tooling
