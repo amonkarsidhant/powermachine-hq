@@ -1,9 +1,10 @@
 {
   "name": "auth-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Azure AD gated proxy for the OpenClaw Control UI",
   "main": "index.js",
   "scripts": {
+    "lint": "node --check index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

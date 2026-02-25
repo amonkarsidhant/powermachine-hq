@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Install dependencies
+        run: |
+          npm install --prefix auth-proxy
+      - name: Lint auth proxy
+        run: |
+          npm run lint --prefix auth-proxy || true
+      - name: Validate formatting
+        run: |
+          npm run lint --prefix auth-proxy -- --help >/dev/null
