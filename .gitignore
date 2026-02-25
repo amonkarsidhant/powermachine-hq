@@ -1,0 +1,7 @@
+.openclaw/
+**/node_modules/
+**/envs/
+auth-proxy/.env
+auth-proxy/.env.*
+*.log
+*.pid
